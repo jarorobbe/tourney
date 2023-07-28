@@ -1,0 +1,19 @@
+{
+  "name": "@tourney/tailwind-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "module": "./index.js",
+  "scripts": {
+    "lint": "eslint --max-warnings=0",
+    "lint:fix": "eslint --fix --max-warnings=0",
+    "prettier:fix": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
